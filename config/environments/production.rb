@@ -4,7 +4,7 @@ Rails.application.configure do
   # Code is not reloaded between requests.
   config.cache_classes = true
 
-  onfig.secret_key_base = ENV[SECRET_KEY_BASE]
+  config.secret_key_base = ENV[SECRET_KEY_BASE]
 
 
 
